@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="4" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="jh815Connection" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="jh815Connection (Settings)" PropertyReference="ApplicationSettings.AUTO_SCHE.Properties.Settings.GlobalReference.Default.jh815Connection" Provider="System.Data.OleDb" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="jh10gConnection" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="jh10gConnection (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.AUTO_SCHE.Properties.Settings.GlobalReference.Default.jh10gConnection" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="JHERPDB" IsAppSettingsProperty="true" Modifier="Assembly" Name="JHERPDB (Settings)" PropertyReference="ApplicationSettings.AUTO_SCHE.Properties.Settings.GlobalReference.Default.JHERPDB" Provider="System.Data.OracleClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="jherpdbeip" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="jherpdbeip (Settings)" PropertyReference="ApplicationSettings.AUTO_SCHE.Properties.Settings.GlobalReference.Default.jherpdbeip" Provider="System.Data.OleDb" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="jheipConnection" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="jheipConnection (Settings)" PropertyReference="ApplicationSettings.AUTO_SCHE.Properties.Settings.GlobalReference.Default.jheipConnection" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ODS_JH_EMAILTableAdapter" GeneratorDataComponentClassName="ODS_JH_EMAILTableAdapter" Name="ODS_JH_EMAIL" UserDataComponentName="ODS_JH_EMAILTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="jh815Connection (Settings)" DbObjectName="EAGLE.ODS_JH_EMAIL" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT SN, FROM_ADDR, TO_ADDR, SUBJECT, CREATE_DATE, CREATE_EMP, STATUS FROM EAGLE.ODS_JH_EMAIL</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SN" DataSetColumn="SN" />
+              <Mapping SourceColumn="FROM_ADDR" DataSetColumn="FROM_ADDR" />
+              <Mapping SourceColumn="TO_ADDR" DataSetColumn="TO_ADDR" />
+              <Mapping SourceColumn="SUBJECT" DataSetColumn="SUBJECT" />
+              <Mapping SourceColumn="CREATE_DATE" DataSetColumn="CREATE_DATE" />
+              <Mapping SourceColumn="CREATE_EMP" DataSetColumn="CREATE_EMP" />
+              <Mapping SourceColumn="STATUS" DataSetColumn="STATUS" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="WIRES_TRANS_QUEUETableAdapter" GeneratorDataComponentClassName="WIRES_TRANS_QUEUETableAdapter" Name="WIRES_TRANS_QUEUE" UserDataComponentName="WIRES_TRANS_QUEUETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="jh10gConnection (Settings)" DbObjectName="db.dbo.WIRES_TRANS_QUEUE" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [WIRES_TRANS_QUEUE] WHERE (([SN] = @Original_SN) AND ([WIRE_ID] = @Original_WIRE_ID) AND ([TRANS_EMP] = @Original_TRANS_EMP) AND ([TRANS_DATE] = @Original_TRANS_DATE) AND ([LOCATION] = @Original_LOCATION) AND ([STATUS] = @Original_STATUS))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_SN" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SN" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_WIRE_ID" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="WIRE_ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TRANS_EMP" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TRANS_EMP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TRANS_DATE" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TRANS_DATE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_LOCATION" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="LOCATION" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_STATUS" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="STATUS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [WIRES_TRANS_QUEUE] ([WIRE_ID], [TRANS_EMP], [TRANS_DATE], [LOCATION], [STATUS]) VALUES (@WIRE_ID, @TRANS_EMP, @TRANS_DATE, @LOCATION, @STATUS);
+SELECT SN, WIRE_ID, TRANS_EMP, TRANS_DATE, LOCATION, STATUS FROM WIRES_TRANS_QUEUE WHERE (SN = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@WIRE_ID" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="WIRE_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TRANS_EMP" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TRANS_EMP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TRANS_DATE" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TRANS_DATE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@LOCATION" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="LOCATION" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@STATUS" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="STATUS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT  SN, WIRE_ID, TRANS_EMP, TRANS_DATE, LOCATION, STATUS
+FROM      WIRES_TRANS_QUEUE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [WIRES_TRANS_QUEUE] SET [WIRE_ID] = @WIRE_ID, [TRANS_EMP] = @TRANS_EMP, [TRANS_DATE] = @TRANS_DATE, [LOCATION] = @LOCATION, [STATUS] = @STATUS WHERE (([SN] = @Original_SN) AND ([WIRE_ID] = @Original_WIRE_ID) AND ([TRANS_EMP] = @Original_TRANS_EMP) AND ([TRANS_DATE] = @Original_TRANS_DATE) AND ([LOCATION] = @Original_LOCATION) AND ([STATUS] = @Original_STATUS));
+SELECT SN, WIRE_ID, TRANS_EMP, TRANS_DATE, LOCATION, STATUS FROM WIRES_TRANS_QUEUE WHERE (SN = @SN)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@WIRE_ID" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="WIRE_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TRANS_EMP" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TRANS_EMP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TRANS_DATE" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TRANS_DATE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@LOCATION" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="LOCATION" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@STATUS" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="STATUS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_SN" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SN" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_WIRE_ID" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="WIRE_ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TRANS_EMP" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TRANS_EMP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TRANS_DATE" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TRANS_DATE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_LOCATION" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="LOCATION" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_STATUS" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="STATUS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="SN" ColumnName="SN" DataSourceName="db.dbo.WIRES_TRANS_QUEUE" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@SN" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="SN" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SN" DataSetColumn="SN" />
+              <Mapping SourceColumn="WIRE_ID" DataSetColumn="WIRE_ID" />
+              <Mapping SourceColumn="TRANS_EMP" DataSetColumn="TRANS_EMP" />
+              <Mapping SourceColumn="TRANS_DATE" DataSetColumn="TRANS_DATE" />
+              <Mapping SourceColumn="LOCATION" DataSetColumn="LOCATION" />
+              <Mapping SourceColumn="STATUS" DataSetColumn="STATUS" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ODS_JH_EMAIL_JHERPTableAdapter" GeneratorDataComponentClassName="ODS_JH_EMAIL_JHERPTableAdapter" Name="ODS_JH_EMAIL_JHERP" UserDataComponentName="ODS_JH_EMAIL_JHERPTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="jherpdbeip (Settings)" DbObjectName="JHEIP.ODS_JH_EMAIL" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM "ODS_JH_EMAIL" WHERE (("SN" = ?) AND ((? = 1 AND "FROM_ADDR" IS NULL) OR ("FROM_ADDR" = ?)) AND ("TO_ADDR" = ?) AND ("SUBJECT" = ?) AND ((? = 1 AND "CREATE_DATE" IS NULL) OR ("CREATE_DATE" = ?)) AND ((? = 1 AND "CREATE_EMP" IS NULL) OR ("CREATE_EMP" = ?)) AND ((? = 1 AND "MODIFY_DATE" IS NULL) OR ("MODIFY_DATE" = ?)) AND ((? = 1 AND "MODIFY_EMP" IS NULL) OR ("MODIFY_EMP" = ?)) AND ((? = 1 AND "STATUS" IS NULL) OR ("STATUS" = ?)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="Original_SN" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="SN" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_FROM_ADDR" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="FROM_ADDR" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="Original_FROM_ADDR" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="FROM_ADDR" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="Original_TO_ADDR" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TO_ADDR" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="Original_SUBJECT" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="SUBJECT" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_CREATE_DATE" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="CREATE_DATE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Original_CREATE_DATE" Precision="0" ProviderType="DBTimeStamp" Scale="0" Size="0" SourceColumn="CREATE_DATE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_CREATE_EMP" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="CREATE_EMP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="Original_CREATE_EMP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="CREATE_EMP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MODIFY_DATE" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MODIFY_DATE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Original_MODIFY_DATE" Precision="0" ProviderType="DBTimeStamp" Scale="0" Size="0" SourceColumn="MODIFY_DATE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MODIFY_EMP" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MODIFY_EMP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="Original_MODIFY_EMP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="MODIFY_EMP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_STATUS" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="STATUS" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="Original_STATUS" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="STATUS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO "ODS_JH_EMAIL" ("SN", "FROM_ADDR", "TO_ADDR", "SUBJECT", "CREATE_DATE", "CREATE_EMP", "MODIFY_DATE", "MODIFY_EMP", "STATUS") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="SN" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="SN" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="FROM_ADDR" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="FROM_ADDR" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="TO_ADDR" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TO_ADDR" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="SUBJECT" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="SUBJECT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="CREATE_DATE" Precision="0" ProviderType="DBTimeStamp" Scale="0" Size="0" SourceColumn="CREATE_DATE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="CREATE_EMP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="CREATE_EMP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="MODIFY_DATE" Precision="0" ProviderType="DBTimeStamp" Scale="0" Size="0" SourceColumn="MODIFY_DATE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="MODIFY_EMP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="MODIFY_EMP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="STATUS" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="STATUS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SN, FROM_ADDR, TO_ADDR, SUBJECT, CREATE_DATE, CREATE_EMP, MODIFY_DATE, MODIFY_EMP, STATUS FROM ODS_JH_EMAIL</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE "ODS_JH_EMAIL" SET "SN" = ?, "FROM_ADDR" = ?, "TO_ADDR" = ?, "SUBJECT" = ?, "CREATE_DATE" = ?, "CREATE_EMP" = ?, "MODIFY_DATE" = ?, "MODIFY_EMP" = ?, "STATUS" = ? WHERE (("SN" = ?) AND ((? = 1 AND "FROM_ADDR" IS NULL) OR ("FROM_ADDR" = ?)) AND ("TO_ADDR" = ?) AND ("SUBJECT" = ?) AND ((? = 1 AND "CREATE_DATE" IS NULL) OR ("CREATE_DATE" = ?)) AND ((? = 1 AND "CREATE_EMP" IS NULL) OR ("CREATE_EMP" = ?)) AND ((? = 1 AND "MODIFY_DATE" IS NULL) OR ("MODIFY_DATE" = ?)) AND ((? = 1 AND "MODIFY_EMP" IS NULL) OR ("MODIFY_EMP" = ?)) AND ((? = 1 AND "STATUS" IS NULL) OR ("STATUS" = ?)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="SN" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="SN" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="FROM_ADDR" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="FROM_ADDR" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="TO_ADDR" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TO_ADDR" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="SUBJECT" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="SUBJECT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="CREATE_DATE" Precision="0" ProviderType="DBTimeStamp" Scale="0" Size="0" SourceColumn="CREATE_DATE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="CREATE_EMP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="CREATE_EMP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="MODIFY_DATE" Precision="0" ProviderType="DBTimeStamp" Scale="0" Size="0" SourceColumn="MODIFY_DATE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="MODIFY_EMP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="MODIFY_EMP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="STATUS" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="STATUS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="Original_SN" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="SN" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_FROM_ADDR" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="FROM_ADDR" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="Original_FROM_ADDR" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="FROM_ADDR" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="Original_TO_ADDR" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TO_ADDR" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="Original_SUBJECT" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="SUBJECT" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_CREATE_DATE" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="CREATE_DATE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Original_CREATE_DATE" Precision="0" ProviderType="DBTimeStamp" Scale="0" Size="0" SourceColumn="CREATE_DATE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_CREATE_EMP" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="CREATE_EMP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="Original_CREATE_EMP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="CREATE_EMP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MODIFY_DATE" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MODIFY_DATE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Original_MODIFY_DATE" Precision="0" ProviderType="DBTimeStamp" Scale="0" Size="0" SourceColumn="MODIFY_DATE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MODIFY_EMP" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MODIFY_EMP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="Original_MODIFY_EMP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="MODIFY_EMP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_STATUS" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="STATUS" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="Original_STATUS" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="STATUS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SN" DataSetColumn="SN" />
+              <Mapping SourceColumn="FROM_ADDR" DataSetColumn="FROM_ADDR" />
+              <Mapping SourceColumn="TO_ADDR" DataSetColumn="TO_ADDR" />
+              <Mapping SourceColumn="SUBJECT" DataSetColumn="SUBJECT" />
+              <Mapping SourceColumn="CREATE_DATE" DataSetColumn="CREATE_DATE" />
+              <Mapping SourceColumn="CREATE_EMP" DataSetColumn="CREATE_EMP" />
+              <Mapping SourceColumn="MODIFY_DATE" DataSetColumn="MODIFY_DATE" />
+              <Mapping SourceColumn="MODIFY_EMP" DataSetColumn="MODIFY_EMP" />
+              <Mapping SourceColumn="STATUS" DataSetColumn="STATUS" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ODS_JH_EMAIL" msprop:Generator_TableClassName="ODS_JH_EMAILDataTable" msprop:Generator_TableVarName="tableODS_JH_EMAIL" msprop:Generator_RowChangedName="ODS_JH_EMAILRowChanged" msprop:Generator_TablePropName="ODS_JH_EMAIL" msprop:Generator_RowDeletingName="ODS_JH_EMAILRowDeleting" msprop:Generator_RowChangingName="ODS_JH_EMAILRowChanging" msprop:Generator_RowEvHandlerName="ODS_JH_EMAILRowChangeEventHandler" msprop:Generator_RowDeletedName="ODS_JH_EMAILRowDeleted" msprop:Generator_RowClassName="ODS_JH_EMAILRow" msprop:Generator_UserTableName="ODS_JH_EMAIL" msprop:Generator_RowEvArgName="ODS_JH_EMAILRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SN" msprop:Generator_ColumnVarNameInTable="columnSN" msprop:Generator_ColumnPropNameInRow="SN" msprop:Generator_ColumnPropNameInTable="SNColumn" msprop:Generator_UserColumnName="SN" type="xs:decimal" />
+              <xs:element name="FROM_ADDR" msprop:Generator_ColumnVarNameInTable="columnFROM_ADDR" msprop:Generator_ColumnPropNameInRow="FROM_ADDR" msprop:Generator_ColumnPropNameInTable="FROM_ADDRColumn" msprop:Generator_UserColumnName="FROM_ADDR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TO_ADDR" msprop:Generator_ColumnVarNameInTable="columnTO_ADDR" msprop:Generator_ColumnPropNameInRow="TO_ADDR" msprop:Generator_ColumnPropNameInTable="TO_ADDRColumn" msprop:Generator_UserColumnName="TO_ADDR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUBJECT" msprop:Generator_ColumnVarNameInTable="columnSUBJECT" msprop:Generator_ColumnPropNameInRow="SUBJECT" msprop:Generator_ColumnPropNameInTable="SUBJECTColumn" msprop:Generator_UserColumnName="SUBJECT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="512" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CREATE_DATE" msprop:Generator_ColumnVarNameInTable="columnCREATE_DATE" msprop:Generator_ColumnPropNameInRow="CREATE_DATE" msprop:Generator_ColumnPropNameInTable="CREATE_DATEColumn" msprop:Generator_UserColumnName="CREATE_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CREATE_EMP" msprop:Generator_ColumnVarNameInTable="columnCREATE_EMP" msprop:Generator_ColumnPropNameInRow="CREATE_EMP" msprop:Generator_ColumnPropNameInTable="CREATE_EMPColumn" msprop:Generator_UserColumnName="CREATE_EMP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STATUS" msprop:Generator_ColumnVarNameInTable="columnSTATUS" msprop:Generator_ColumnPropNameInRow="STATUS" msprop:Generator_ColumnPropNameInTable="STATUSColumn" msprop:Generator_UserColumnName="STATUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WIRES_TRANS_QUEUE" msprop:Generator_TableClassName="WIRES_TRANS_QUEUEDataTable" msprop:Generator_TableVarName="tableWIRES_TRANS_QUEUE" msprop:Generator_RowChangedName="WIRES_TRANS_QUEUERowChanged" msprop:Generator_TablePropName="WIRES_TRANS_QUEUE" msprop:Generator_RowDeletingName="WIRES_TRANS_QUEUERowDeleting" msprop:Generator_RowChangingName="WIRES_TRANS_QUEUERowChanging" msprop:Generator_RowEvHandlerName="WIRES_TRANS_QUEUERowChangeEventHandler" msprop:Generator_RowDeletedName="WIRES_TRANS_QUEUERowDeleted" msprop:Generator_RowClassName="WIRES_TRANS_QUEUERow" msprop:Generator_UserTableName="WIRES_TRANS_QUEUE" msprop:Generator_RowEvArgName="WIRES_TRANS_QUEUERowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SN" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnSN" msprop:Generator_ColumnPropNameInRow="SN" msprop:Generator_ColumnPropNameInTable="SNColumn" msprop:Generator_UserColumnName="SN" type="xs:int" />
+              <xs:element name="WIRE_ID" msprop:Generator_ColumnVarNameInTable="columnWIRE_ID" msprop:Generator_ColumnPropNameInRow="WIRE_ID" msprop:Generator_ColumnPropNameInTable="WIRE_IDColumn" msprop:Generator_UserColumnName="WIRE_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TRANS_EMP" msprop:Generator_ColumnVarNameInTable="columnTRANS_EMP" msprop:Generator_ColumnPropNameInRow="TRANS_EMP" msprop:Generator_ColumnPropNameInTable="TRANS_EMPColumn" msprop:Generator_UserColumnName="TRANS_EMP">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TRANS_DATE" msprop:Generator_ColumnVarNameInTable="columnTRANS_DATE" msprop:Generator_ColumnPropNameInRow="TRANS_DATE" msprop:Generator_ColumnPropNameInTable="TRANS_DATEColumn" msprop:Generator_UserColumnName="TRANS_DATE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LOCATION" msprop:Generator_ColumnVarNameInTable="columnLOCATION" msprop:Generator_ColumnPropNameInRow="LOCATION" msprop:Generator_ColumnPropNameInTable="LOCATIONColumn" msprop:Generator_UserColumnName="LOCATION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STATUS" msprop:Generator_ColumnVarNameInTable="columnSTATUS" msprop:Generator_ColumnPropNameInRow="STATUS" msprop:Generator_ColumnPropNameInTable="STATUSColumn" msprop:Generator_UserColumnName="STATUS">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ODS_JH_EMAIL_JHERP" msprop:Generator_TableClassName="ODS_JH_EMAIL_JHERPDataTable" msprop:Generator_TableVarName="tableODS_JH_EMAIL_JHERP" msprop:Generator_TablePropName="ODS_JH_EMAIL_JHERP" msprop:Generator_RowDeletingName="ODS_JH_EMAIL_JHERPRowDeleting" msprop:Generator_RowChangingName="ODS_JH_EMAIL_JHERPRowChanging" msprop:Generator_RowEvHandlerName="ODS_JH_EMAIL_JHERPRowChangeEventHandler" msprop:Generator_RowDeletedName="ODS_JH_EMAIL_JHERPRowDeleted" msprop:Generator_UserTableName="ODS_JH_EMAIL_JHERP" msprop:Generator_RowChangedName="ODS_JH_EMAIL_JHERPRowChanged" msprop:Generator_RowEvArgName="ODS_JH_EMAIL_JHERPRowChangeEvent" msprop:Generator_RowClassName="ODS_JH_EMAIL_JHERPRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SN" msprop:Generator_ColumnVarNameInTable="columnSN" msprop:Generator_ColumnPropNameInRow="SN" msprop:Generator_ColumnPropNameInTable="SNColumn" msprop:Generator_UserColumnName="SN" type="xs:double" />
+              <xs:element name="FROM_ADDR" msprop:Generator_ColumnVarNameInTable="columnFROM_ADDR" msprop:Generator_ColumnPropNameInRow="FROM_ADDR" msprop:Generator_ColumnPropNameInTable="FROM_ADDRColumn" msprop:Generator_UserColumnName="FROM_ADDR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TO_ADDR" msprop:Generator_ColumnVarNameInTable="columnTO_ADDR" msprop:Generator_ColumnPropNameInRow="TO_ADDR" msprop:Generator_ColumnPropNameInTable="TO_ADDRColumn" msprop:Generator_UserColumnName="TO_ADDR">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1024" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUBJECT" msprop:Generator_ColumnVarNameInTable="columnSUBJECT" msprop:Generator_ColumnPropNameInRow="SUBJECT" msprop:Generator_ColumnPropNameInTable="SUBJECTColumn" msprop:Generator_UserColumnName="SUBJECT">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1024" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CREATE_DATE" msprop:Generator_ColumnVarNameInTable="columnCREATE_DATE" msprop:Generator_ColumnPropNameInRow="CREATE_DATE" msprop:Generator_ColumnPropNameInTable="CREATE_DATEColumn" msprop:Generator_UserColumnName="CREATE_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CREATE_EMP" msprop:Generator_ColumnVarNameInTable="columnCREATE_EMP" msprop:Generator_ColumnPropNameInRow="CREATE_EMP" msprop:Generator_ColumnPropNameInTable="CREATE_EMPColumn" msprop:Generator_UserColumnName="CREATE_EMP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MODIFY_DATE" msprop:Generator_ColumnVarNameInTable="columnMODIFY_DATE" msprop:Generator_ColumnPropNameInRow="MODIFY_DATE" msprop:Generator_ColumnPropNameInTable="MODIFY_DATEColumn" msprop:Generator_UserColumnName="MODIFY_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MODIFY_EMP" msprop:Generator_ColumnVarNameInTable="columnMODIFY_EMP" msprop:Generator_ColumnPropNameInRow="MODIFY_EMP" msprop:Generator_ColumnPropNameInTable="MODIFY_EMPColumn" msprop:Generator_UserColumnName="MODIFY_EMP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STATUS" msprop:Generator_ColumnVarNameInTable="columnSTATUS" msprop:Generator_ColumnPropNameInRow="STATUS" msprop:Generator_ColumnPropNameInTable="STATUSColumn" msprop:Generator_UserColumnName="STATUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ODS_JH_EMAIL" />
+      <xs:field xpath="mstns:SN" />
+    </xs:unique>
+    <xs:unique name="WIRES_TRANS_QUEUE_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:WIRES_TRANS_QUEUE" />
+      <xs:field xpath="mstns:SN" />
+    </xs:unique>
+    <xs:unique name="ODS_JH_EMAIL_JHERP_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ODS_JH_EMAIL_JHERP" />
+      <xs:field xpath="mstns:SN" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

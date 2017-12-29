@@ -1,0 +1,104 @@
+c:\users\sonyman\documents\visual studio 2010\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe
+c:\users\sonyman\documents\visual studio 2010\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.pdb
+c:\users\sonyman\documents\visual studio 2010\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.BBI_datatrans01.resources
+c:\users\sonyman\documents\visual studio 2010\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Properties.Resources.resources
+c:\users\sonyman\documents\visual studio 2010\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.csproj.GenerateResource.Cache
+c:\users\sonyman\documents\visual studio 2010\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.exe
+c:\users\sonyman\documents\visual studio 2010\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.pdb
+c:\users\sonyman\documents\visual studio 2010\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe.config
+C:\Users\sonyman\documents\visual studio 2010\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.HEAT_IMPORT_01.resources
+C:\Users\sonyman\documents\visual studio 2010\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Main_win.resources
+C:\Users\sonyman\documents\visual studio 2010\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.csprojResolveAssemblyReference.cache
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe.config
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.exe
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.pdb
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.pdb
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.BBI_datatrans01.resources
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Main_win.resources
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.HEAT_IMPORT_01.resources
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Properties.Resources.resources
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\ResGen.read.1.tlog
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\ResGen.write.1.tlog
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.MTM_datatrans01.resources
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.EMAIL_JOBS.resources
+E:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.BBI_file_check.resources
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe.config
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.exe
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.pdb
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.pdb
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.BBI_datatrans01.resources
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.BBI_file_check.resources
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.EMAIL_JOBS.resources
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Main_win.resources
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.HEAT_IMPORT_01.resources
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.MTM_datatrans01.resources
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Properties.Resources.resources
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\ResGen.read.1.tlog
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\ResGen.write.1.tlog
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe.manifest
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.application
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.exe.manifest
+K:\WORK_ABOUT\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.application
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe.config
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.exe
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.pdb
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe.manifest
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.application
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.pdb
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.BBI_datatrans01.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.BBI_file_check.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.EMAIL_JOBS.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Main_win.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.HEAT_IMPORT_01.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.MTM_datatrans01.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Properties.Resources.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.csproj.GenerateResource.Cache
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.exe.manifest
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.application
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.WIRES_trans.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.HEAT_IMPORT_02.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.EMAIL_JOBS_JHERP.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.csprojResolveAssemblyReference.cache
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Excel2PDF.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Excel2PDF_P.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Excel2PDF_F.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.CSC_SOE3_IMP.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.ScanMail.resources
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\bin\Debug\OpenPop.dll
+D:\work_about\ASP_NET\Projects\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.ScanMail_Auto.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.BBI_datatrans01.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.BBI_file_check.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.CSC_SOE3_IMP.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.EMAIL_JOBS.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.EMAIL_JOBS_JHERP.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Excel2PDF.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Excel2PDF_F.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Excel2PDF_P.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Main_win.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.HEAT_IMPORT_01.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.HEAT_IMPORT_02.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.MTM_datatrans01.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.Properties.Resources.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.ScanMail.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.ScanMail_Auto.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.WIRES_trans.resources
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.csproj.GenerateResource.Cache
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.csproj.CoreCompileInputs.cache
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.exe
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.pdb
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe.config
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe.manifest
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.application
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.exe
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\bin\Debug\AUTO_SCHE.pdb
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\bin\Debug\OpenPop.dll
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\bin\Debug\stdole.dll
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.exe.manifest
+D:\Git_Source\Jnnher\AUTO_SCHE\AUTO_SCHE\obj\x86\Debug\AUTO_SCHE.application

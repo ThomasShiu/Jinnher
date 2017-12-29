@@ -1,0 +1,61 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AUTO_SCHE.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="tqc2000" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=OraOLEDB.Oracle.1;Data Source=jh815;Persist Security Info=True;Password=top3699;User ID=tqc2000&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=OraOLEDB.Oracle.1;Data Source=jh815;Persist Security Info=True;Password=top3699;User ID=tqc2000</Value>
+    </Setting>
+    <Setting Name="jheipConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=OraOLEDB.Oracle.1;Data Source=jheip;Persist Security Info=True;Password=jhjolihi;User ID=jheip&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=OraOLEDB.Oracle.1;Data Source=jheip;Persist Security Info=True;Password=jhjolihi;User ID=jheip</Value>
+    </Setting>
+    <Setting Name="jh10gConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.0.9;Initial Catalog=db;Persist Security Info=True;User ID=jhpda;Password=jinnher9801&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.0.9;Initial Catalog=db;Persist Security Info=True;User ID=jhpda;Password=jinnher9801</Value>
+    </Setting>
+    <Setting Name="JHERPDB" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=OraOLEDB.Oracle.1;Data Source=jherpdb;Persist Security Info=True;Password=jhjolihi;User ID=jheip&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OracleClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=OraOLEDB.Oracle.1;Data Source=jherpdb;Persist Security Info=True;Password=jhjolihi;User ID=jheip</Value>
+    </Setting>
+    <Setting Name="jherpdbeip" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=MSDAORA;Data Source=jherpdb;Persist Security Info=True;Password=jhjolihi;User ID=jheip&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=MSDAORA;Data Source=jherpdb;Persist Security Info=True;Password=jhjolihi;User ID=jheip</Value>
+    </Setting>
+    <Setting Name="jh815Conn" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=MSDAORA;Data Source=jh815;Persist Security Info=True;Password=shefalls;User ID=eagle&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=MSDAORA;Data Source=jh815;Persist Security Info=True;Password=shefalls;User ID=eagle</Value>
+    </Setting>
+    <Setting Name="jh815Connection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=OraOLEDB.Oracle.1;Data Source=jh815;Persist Security Info=True;Password=shefalls;User ID=eagle&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=OraOLEDB.Oracle.1;Data Source=jh815;Persist Security Info=True;Password=shefalls;User ID=eagle</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

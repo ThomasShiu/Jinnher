@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://intra.brightonbest.com/PDAServiceForVendor" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://intra.brightonbest.com/PDAServiceForVendor" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This web service is for Venodr use only.</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://intra.brightonbest.com/PDAServiceForVendor">
+      <s:element name="UploadData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PDA_DataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="ParamXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadDataResult" type="tns:Result" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Result">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="success" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="message" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RowCount" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UploadDataSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadData" />
+  </wsdl:message>
+  <wsdl:message name="UploadDataSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadDataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PDAServiceForVendorSoap">
+    <wsdl:operation name="UploadData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">上傳資料到大國鋼資料庫公用程式段</wsdl:documentation>
+      <wsdl:input message="tns:UploadDataSoapIn" />
+      <wsdl:output message="tns:UploadDataSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PDAServiceForVendorHttpGet" />
+  <wsdl:portType name="PDAServiceForVendorHttpPost" />
+  <wsdl:binding name="PDAServiceForVendorSoap" type="tns:PDAServiceForVendorSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadData">
+      <soap:operation soapAction="http://intra.brightonbest.com/PDAServiceForVendor/UploadData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PDAServiceForVendorSoap12" type="tns:PDAServiceForVendorSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadData">
+      <soap12:operation soapAction="http://intra.brightonbest.com/PDAServiceForVendor/UploadData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PDAServiceForVendorHttpGet" type="tns:PDAServiceForVendorHttpGet">
+    <http:binding verb="GET" />
+  </wsdl:binding>
+  <wsdl:binding name="PDAServiceForVendorHttpPost" type="tns:PDAServiceForVendorHttpPost">
+    <http:binding verb="POST" />
+  </wsdl:binding>
+  <wsdl:service name="PDAServiceForVendor">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This web service is for Venodr use only.</wsdl:documentation>
+    <wsdl:port name="PDAServiceForVendorSoap" binding="tns:PDAServiceForVendorSoap">
+      <soap:address location="http://intra.brightonbest.com/pdaserviceforvendor/WebServiceForVendor.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PDAServiceForVendorSoap12" binding="tns:PDAServiceForVendorSoap12">
+      <soap12:address location="http://intra.brightonbest.com/pdaserviceforvendor/WebServiceForVendor.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PDAServiceForVendorHttpGet" binding="tns:PDAServiceForVendorHttpGet">
+      <http:address location="http://intra.brightonbest.com/pdaserviceforvendor/WebServiceForVendor.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PDAServiceForVendorHttpPost" binding="tns:PDAServiceForVendorHttpPost">
+      <http:address location="http://intra.brightonbest.com/pdaserviceforvendor/WebServiceForVendor.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

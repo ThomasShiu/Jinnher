@@ -1,0 +1,203 @@
+﻿
+	.run   {
+		position: relative;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		width:  130px;
+		height: 130px;
+		border: 0px;
+		
+	}
+	.run  ul, .run  li  {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.run  ul  {
+		/*position: absolute;*/
+		position: relative;
+	}
+	.run  ul li a {
+		display: block;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		font-size:18px;
+		font-family:微軟正黑體,Arial; 
+		font-weight: bold;
+		text-align:center;
+		height: 130px;
+		line-height: 130px;
+		text-decoration: none;
+		cursor: hand;
+	}
+/*run2*/	
+	.run2   {
+		position: relative;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		width:  130px;
+		height: 130px;
+		border: 0px;
+		
+	}
+	.run2  ul, .run2  li  {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.run2  ul  {
+		/*position: absolute;*/
+		position: relative;
+	}
+	.run2  ul li a {
+		display: block;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		font-size:18px;
+		font-family:微軟正黑體,Arial; 
+		font-weight: bold;
+		text-align:center;
+		height: 130px;
+		line-height: 130px;
+		text-decoration: none;
+		cursor: hand;
+	}
+/*run3*/	
+	.run3   {
+		position: relative;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		width:  130px;
+		height: 130px;
+		border: 0px;
+		
+	}
+	.run3  ul,.run3   li  {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.run3  ul  {
+		/*position: absolute;*/
+		position: relative;
+	}
+	.run3  ul li a {
+		display : block;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		font-size:12px;
+		font-family:微軟正黑體,Arial; 
+		font-weight: bold;
+		text-align:center;
+		height: 130px;
+		line-height: 130px;
+		text-decoration: none;
+		cursor: hand;
+	}
+	
+/*run4*/
+	.run4   {
+		position: relative;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		width:  130px;
+		height: 130px;
+		border: 0px;
+		
+	}
+	.run4  ul,.run4   li  {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.run4  ul  {
+		/*position: absolute;*/
+		position: relative;
+	}
+	.run4  ul li a {
+		display: block;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		font-size:12px;
+		font-family:微軟正黑體,Arial; 
+		font-weight: bold;
+		text-align:center;
+		height: 130px;
+		line-height: 130px;
+		text-decoration: none;
+		cursor: hand;
+	}
+/*run5*/
+	.run5   {
+		position: relative;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		width:  130px;
+		height: 130px;
+		border: 0px;
+		
+	}
+	.run5  ul,.run5   li  {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.run5  ul  {
+		/*position: absolute;*/
+		position: relative;
+	}
+	.run5  ul li a {
+		display: block;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		font-size:18px;
+		font-family:微軟正黑體,Arial; 
+		font-weight: bold;
+		text-align:center;
+		height: 130px;
+		line-height: 130px;
+		text-decoration: none;
+		cursor: hand;
+	}	
+	
+	
+
+	
+	/*run6*/
+	.run6   {
+		position: relative;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		width:  130px;
+		height: 130px;
+		border: 0px;
+		
+	}
+	.run6  ul,.run6   li  {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.run6  ul  {
+		/*position: absolute;*/
+		position: relative;
+	}
+	.run6  ul li a {
+		display:   block;
+		/*overflow: hidden;	 超出範圍的部份要隱藏 */
+		font-size:18px;
+		font-family:微軟正黑體,Arial; 
+		font-weight: bold;
+		text-align:center;
+		height: 130px;
+		line-height: 130px;
+		text-decoration: none;
+		cursor: hand;
+	}	
+	
+	
+	.imgInner
+	{
+		position: relative;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		width:  130px;
+		height: 130px;
+		border: 0px;
+	}
+	.imgPosition
+	{
+	    position: relative;
+		overflow: hidden;	/* 超出範圍的部份要隱藏 */
+		top:  40px;
+		left: 40px;
+		border: 0px;
+	}
