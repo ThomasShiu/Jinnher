@@ -37,7 +37,7 @@
            <span class="tile-title">外銷接單</span>
             <div>
                <a href="GM_exportorder2.aspx" target="_blank">
-                <img clsas="full" src="./images/dataset.png" alt="1" />
+                <img class="full" src="./images/dataset.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
@@ -66,7 +66,7 @@
            <span class="tile-title">外銷出貨統計</span>
             <div>
                <a href="GM_salesKPI_5.aspx" target="_blank">
-                <img clsas="full" src="./images/dataset.png" alt="1" />
+                <img class="full" src="./images/dataset.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
@@ -82,7 +82,7 @@
            <span class="tile-title">內銷出貨統計</span>
             <div>
                <a href="GM_salesKPI_L.aspx" target="_blank">
-                <img clsas="full" src="./images/dataset.png" alt="1" />
+                <img class="full" src="./images/dataset.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
@@ -98,7 +98,7 @@
            <span class="tile-title">訂單交期</span>
             <div>
                <a href="GM_orddelivery.aspx" target="_blank">
-                <img clsas="full" src="./images/dataset.png" alt="1" />
+                <img class="full" src="./images/dataset.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
@@ -142,7 +142,7 @@
            <span class="tile-title">內銷成品庫存</span>
             <div>
                <a href="GM_demostock12.aspx" target="_blank">
-                <img clsas="full" src="./images/dataset.png" alt="1" />
+                <img class="full" src="./images/dataset.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
@@ -158,7 +158,7 @@
            <span class="tile-title">內銷成品庫存</span>
             <div>
                <a href="GM_demostock2.aspx" target="_blank">
-                <img clsas="full" src="./images/dataset.png" alt="1" />
+                <img class="full" src="./images/dataset.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
@@ -173,7 +173,7 @@
            <span class="tile-title">盤元庫存</span>
             <div>
                <a href="GM_demostock2.aspx" target="_blank">
-                <img clsas="full" src="./images/man01.png" alt="1" />
+                <img class="full" src="./images/man01.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
@@ -188,7 +188,7 @@
            <span class="tile-title">製程生產分析表</span>
             <div>
                <a href="GM_processanaly.aspx" target="_blank">
-                <img clsas="full" src="./images/produce01.png" alt="1" />
+                <img class="full" src="./images/produce01.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
@@ -203,7 +203,7 @@
            <span class="tile-title">盤元需求表</span>
             <div>
                <a href="GM_wirereq.aspx" target="_blank">
-                <img clsas="full" src="./images/dataset.png" alt="1" />
+                <img class="full" src="./images/dataset.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
@@ -223,7 +223,7 @@
            <span class="tile-title">成型預排</span>
             <div>
                <a href="#" target="_blank">
-                <img clsas="full" src="./images/dataset.png" alt="1" />
+                <img class="full" src="./images/dataset.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
@@ -238,7 +238,7 @@
            <span class="tile-title">待輾牙</span>
             <div>
                <a href="#" target="_blank">
-                <img clsas="full" src="./images/dataset.png" alt="1" />
+                <img class="full" src="./images/dataset.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
@@ -253,7 +253,7 @@
            <span class="tile-title">待熱處理</span>
             <div>
                <a href="GM_wirereq.aspx" target="_blank">
-                <img clsas="full" src="./images/dataset.png" alt="1" />
+                <img class="full" src="./images/dataset.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
@@ -269,7 +269,7 @@
            <span class="tile-title">待電鍍</span>
             <div>
                <a href="GM_platheatraw.aspx" target="_blank">
-                <img clsas="full" src="./images/dataset.png" alt="1" />
+                <img class="full" src="./images/dataset.png" alt="1" />
                </a>
             </div>
             <div class="myClass">
